@@ -13,7 +13,6 @@ router.get('/:id', (req, res) => {
 })
 
 router.get('', (req, res) => {
-    console.log("Users_branche")
     res.status(200).send(JSON.stringify(usersBase));
 })
 
